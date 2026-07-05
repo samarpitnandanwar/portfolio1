@@ -38,7 +38,7 @@ const educationJourney = [
 ];
 
 const quickStats = [
-  { value: "1~", label: "Years of Experience", accent: "text-foreground" },
+  { value: "1.5~", label: "Years of Experience", accent: "text-foreground" },
   { value: "3×", label: "Academic Honors", accent: "text-foreground" },
   { value: "4+", label: "Years Coding", accent: "text-foreground" },
 ];
