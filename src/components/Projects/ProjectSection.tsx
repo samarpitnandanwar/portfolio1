@@ -3,14 +3,14 @@ import FadeIn from "../ui/FadeIn";
 
 const projects = [
     {
-        title: "JurisAI",
-        description: "A legal-tech platform enabling workspaces for document management and intelligent querying. Features a RAG-based chatbot and a high-performance search engine indexing 10k+ cases.",
-        technologies: ["HTML","CSS", "JavaScript","Django", "Python", "PostgreSQL", "RAGFlow", "Docker"],
-        liveLink: "https://jurisai.tech",
-        image: "/JurisAI.tech.png"
+        title: "Halloween",
+        description: "A Halloween-themed website that showcases spooky designs and interactive elements, built with HTML, CSS, and JavaScript.",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        liveLink: "https://samarpitnandanwar.github.io/Halloween-SAMARPIT-NANDANWAR-/",
+        image: "/Halloween.png"
     },
     {
-        title: "Legal Onboarding Agent",
+        title: "AI Customer Support SAAS",
         description: "An agent that automates legal onboarding for migrant workers, featuring dynamic AI-powered interviews, and automated affidavit generation.",
         technologies: ["OpenClaw", "Ollama"],
         liveLink: "https://youtu.be/g4YsYH6fByI",
@@ -19,7 +19,7 @@ const projects = [
     {
         title: "Flux",
         description: "Flux is an AI-powered assistant that helps job seekers organize their applications and automatically tailors their resumes to perfectly match any job description.",
-        technologies: ["Next.js", "Supabase", "TypeScript", 'Shadcn UI', "OpenRouter" , "Vercel"],
+        technologies: ["Next.js", "Supabase", "TypeScript", 'Shadcn UI', "OpenRouter", "Vercel"],
         liveLink: "https://flux-job-hunt.vercel.app/",
         image: "/flux.png"
     },
@@ -36,7 +36,7 @@ const projects = [
 export default function Projects() {
     return (
         <section id="projects" className="md:py-24 py-12 w-full border-b-4 border-foreground">
-             <div className="max-w-6xl mx-auto px-6 sm:px-10">
+            <div className="max-w-6xl mx-auto px-6 sm:px-10">
                 <FadeIn>
                     <div className="text-center mb-20">
                         <span className="font-mono inline-block px-3 py-1.5 text-xs font-black tracking-wider uppercase bg-foreground text-background border-2 border-foreground mb-4 select-none">
@@ -53,7 +53,7 @@ export default function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                     {projects.map((project, index) => (
                         <FadeIn key={index} delay={index * 0.15}>
-                            <ProjectCard 
+                            <ProjectCard
                                 {...project}
                             />
                         </FadeIn>

@@ -16,6 +16,7 @@ export default function NavigationBar() {
         { name: "Skills", linkTo: "skills" },
         { name: "Experience", linkTo: "experience" },
         { name: "Projects", linkTo: "projects" },
+        { name: "Certificates", linkTo: "certificates" },
         { name: "Contact", linkTo: "contact" },
     ];
 

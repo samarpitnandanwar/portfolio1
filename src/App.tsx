@@ -8,6 +8,7 @@ import Skills from "./components/Skills/SkillsSection";
 import Experience from "./components/Experience/ExperienceSection";
 import Projects from "./components/Projects/ProjectSection";
 import Contact from "./components/Contact/ContactSection";
+import Certificate from "./components/Certificates/CertificateSection";
 
 function App() {
 
@@ -20,10 +21,11 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
+        <Certificate />
         <Contact />
-      </main>      
-      <Analytics />   
-      <SpeedInsights /> 
+      </main>
+      <Analytics />
+      <SpeedInsights />
     </ThemeProvider>
   )
 }
